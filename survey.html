@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="survey.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <form id="form">
+        <div class="title-div">
+            <h1>Student Survey Form</h1>
+            <p>This is survey form is created to know the students information.</p>
+            <p class="required"> *Required</p>
+        </div>
+
+        <div class="name-div">
+            <div class="name">Enter Your Name<span class="required">*</span></div>
+            <div class="input-div"><input type="input" id="name" placeholder="your name"></div>
+        </div>
+        <div class="name-div">
+            <div class="name"> Enter Your Email Address<span class="required">*</span></div>
+            <div class="input-div"><input  type="input"  id="email" placeholder="your Email"></div>
+        </div>
+        <div class="name-div">
+            <div class="name"> Enter Your Mobile Number<span class="required">*</span></div>
+            <div class="input-div"><input type="input"  id="mobile" placeholder="your mobile number"></div>
+        </div>
+        <div class="name-div">
+            <div class="name">Gender<span class="required">*</span></div>
+            <div class="input-div"><input type="input"  id="gender" placeholder="your Gender"></div>
+        </div>
+        <div class="name-div">
+            <div class="name">Degree<span class="required">*</span></div>
+            <div class="input-div"><input type="input"   id="degree" placeholder="BE/Btech"></div>
+        </div>
+        <div class="name-div">
+            <div class="name"> Your Branch<span class="required">*</span></div>
+            <div class="input-div"><input type="input"  id="branch" placeholder="Branch"></div>
+        </div>
+        <div class="name-div">
+            <div class="name"> Passout Year<span class="required">*</span></div>
+            <div class="input-div"><input type="input"  id="year" placeholder="2020 / 2021 / 2022"></div>
+        </div>
+        <div class="name-div">
+            <div class="name"> number of backlogs<span class="required">*</span></div>
+            <div class="input-div"><input type="input"  id="backlogs" placeholder="backlogs"></div>
+        </div>
+        <div class="name-div">
+            <div class="name"> Collage name<span class="required">*</span></div>
+            <div class="input-div"><input type="input"  id="collage" placeholder="enter collage name"></div>
+        </div>
+        <div class="name-div">
+            <div class="name"> University<span class="required">*</span></div>
+            <div class="input-div"><input type="input"  id="university" placeholder="enter university"></div>
+        </div>
+        <div class="name-div">
+            <div class="name"> current city<span class="required">*</span></div>
+            <div class="input-div"><input type="input"  id="city" placeholder="enter city name"></div>
+        </div>
+        <div class="name-div">
+            <div class="name"> State<span class="required">*</span></div>
+            <div class="input-div"><input type="input"  id="state" placeholder="enter state name"></div>
+        </div>
+        <div class="name-div">
+            <div class="name"> Enter your Skills<span class="required">*</span></div>
+            <div class="input-div"><input type="input" id="skills" placeholder="skills"></div>
+        </div>
+        <div class="name-div">
+            <div class="name"> experience in years<span class="required">*</span></div>
+            <div class="input-div"><input type="input"  id="experience" placeholder=""></div>
+        </div>
+        <div class="name-div">
+            <div class="name"> languages known<span class="required">*</span></div>
+            <div class="input-div"><input type="input"  id="languages" placeholder=""></div>
+        </div>
+        <div class="name-div">
+            <div class="name"> preffered job location<span class="required">*</span></div>
+            <div class="input-div"><input type="input"  id="job-location" placeholder="location"></div>
+        </div>
+        <div class="name-div">
+            <div class="name"> Are you willing to relocate<span class="required">*</span></div>
+            <div class="input-div"><input type="input"  id="relocate" placeholder="Yes / No"></div>
+        </div>
+        <div class="name-div">
+            <div class="name"> Are you ready to sign the 2 years agreement?<span class="required">*</span></div>
+            <div class="input-div"><input type="input"  id="agreement" placeholder="Yes / No"></div>
+        </div>
+        <div class="name-div">
+            <div class="name">Notice preiod in days<span class="required">*</span></div>
+            <div class="input-div"><input type="input"  id="notice" placeholder=""></div>
+        </div>
+        <div class="name-div">
+            <div class="name"> salary expectation in lacs<span class="required">*</span></div>
+            <div class="input-div"><input type="input"  id="salary" placeholder="enter a number between 4 - 6"></div>
+        </div>
+        <button class="submit" id="submit" onclick="submitData()">Submit</button>
+    </form>
+
+    <script src="survey.js"></script>
+    
+</body>
+</html>
